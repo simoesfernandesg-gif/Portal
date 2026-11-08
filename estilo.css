@@ -1,0 +1,60 @@
+
+/* Configuração do container principal */
+.container { width: 100%; 
+    display: flex; 
+    flex-direction: row; 
+  } 
+/* Configuração da coluna da esquerda */
+.esquerda{ flex-grow: 2; 
+    background:gainsboro; 
+    font-size: 1.5em; 
+    text-align:center;  
+  } 
+/* Configuração da coluna central */
+.centro{ flex-grow: 2; 
+    background: burlywood; 
+    font-size: 1.5em; 
+    text-align:center;  
+  }
+  
+  /* Configuração da coluna da direita */
+.direita {  flex-grow: 2; 
+    background:gainsboro; 
+    font-size: 1.5em; 
+    text-align:center; 
+  } 
+
+/* Container responsável por organizar as imagens */
+.container-imagens {
+  flex-direction: column;
+  display: flex;
+  gap: 15px; /* Espaço entre as imagens */
+}
+/* Configuração das imagens dentro do container */
+.container-imagens img {
+  max-width: 100%; /* Garante que sejam responsivas */
+  height: auto;
+}
+
+/* Configuração geral da página */
+body{ background-color: whitesmoke } /* Container principal que organiza as colunas */
+.principal { width: 100%; display: flex; flex-direction: row; } 
+
+/* Configurações compartilhadas pelas três colunas */
+.coluna1, .coluna2, .coluna3{ align-items: center; margin: 1%; }  
+.coluna1{ flex-grow: 1; } 
+.coluna2{ flex-grow: 1; } 
+.coluna3{ flex-grow: 1; } 
+img{ width: 100%; margin: 1.5%; }  /* Configuração geral de todas as imagens da página */
+h1{ text-align:center; color: rgb(6, 135, 209); font-size: 4.5em; } 
+
+/* Define a cor dos links em seu estado normal e após serem visitados */
+a:link, a:visited{ color: #fff; } 
+
+/* Define que todas as imagens dentro das colunas terão o mesmo tamanho */
+.principal img {
+    width: 100%;       /* Ocupa toda a largura disponível na coluna */
+    height: 180px;     /* Defina uma altura fixa de sua preferência (ex: 180px) */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer (ela recorta o excesso se necessário) */
+    border-radius: 6px; /* Opcional: arredonda levemente os cantos */
+}
