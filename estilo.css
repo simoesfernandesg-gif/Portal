@@ -37,7 +37,7 @@
 }
 
 /* Configuração geral da página */
-body{ background-color: whitesmoke } /* Container principal que organiza as colunas */
+body{ background-color: #f4f6f9 } /* Container principal que organiza as colunas */
 .principal { width: 100%; display: flex; flex-direction: row; } 
 
 /* Configurações compartilhadas pelas três colunas */
