@@ -5,22 +5,22 @@
     flex-direction: row; 
   } 
 /* Configuração da coluna da esquerda */
-.esquerda{ flex-grow: 2; 
+.esquerda{ flex-grow: 4; 
     background:#3690c5; 
-    font-size: 1.5em; 
+    font-size: 2em; 
     text-align:center;  
   } 
 /* Configuração da coluna central */
 .centro{ flex-grow: 2; 
     background: #05ccf0; 
-    font-size: 1.5em; 
+    font-size: 2em; 
     text-align:center;  
   }
   
   /* Configuração da coluna da direita */
 .direita {  flex-grow: 2; 
     background:#3690c5; 
-    font-size: 1.5em; 
+    font-size: 2em; 
     text-align:center; 
   } 
 
